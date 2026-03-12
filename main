@@ -1,10 +1,10 @@
 #!/bin/bash
-#PBS -l nodes=1:ppn=1,vmem=8gb,walltime=00:30:00
+#PBS -l nodes=1:ppn=4,vmem=64gb,walltime=02:00:00
 #PBS -N bl.set-bad-channels
 
-#SBATCH --ntasks-per-node=1
-#SBATCH --mem=8G
-#SBATCH --time=00:30:00
+#SBATCH --ntasks-per-node=4
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
 
 set -e
 set -x
